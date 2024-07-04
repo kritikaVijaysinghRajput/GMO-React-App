@@ -2,9 +2,7 @@ import React from "react";
 import Table from "../components/Table";
 import Departments from "../components/Departments";
 
-type Props = {};
-
-const Page2: React.FC = (props: Props) => {
+const Page2: React.FC = () => {
   return (
     <div>
       <Table />
